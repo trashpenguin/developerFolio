@@ -6,7 +6,7 @@ import buLogo from "./assets/images/buLogo.png";
 import schoolLogo from "./assets/images/schoolLogo.png";
 import osm from "./assets/images/osm.png";
 import ojtLogo from "./assets/images/ojtLogo.png";
-import optumLogo from "./assets/images/optumLogo.png"
+import optumLogo from "./assets/images/optumLogo.png";
 
 // Splash Screen
 const splashScreen = {
@@ -16,7 +16,7 @@ const splashScreen = {
 };
 
 // Summary And Greeting Section
-const illustration = { animated: true };
+const illustration = {animated: true};
 
 const greeting = {
   username: "francisninomoncada",
@@ -44,21 +44,25 @@ const skillsSection = {
   subTitle:
     "CYBERSECURITY-ORIENTED IT PROFESSIONAL INTERESTED IN NETWORK SECURITY, SYSTEM ADMINISTRATION, AND WEB DEVELOPMENT",
   skills: [
-    emoji("⚡ Identify and mitigate cybersecurity threats to enhance digital safety"),
+    emoji(
+      "⚡ Identify and mitigate cybersecurity threats to enhance digital safety"
+    ),
     emoji("⚡ Develop and maintain secure web applications and systems"),
-    emoji("⚡ Conduct vulnerability assessments and improve overall system integrity")
+    emoji(
+      "⚡ Conduct vulnerability assessments and improve overall system integrity"
+    )
   ],
 
   softwareSkills: [
-    { skillName: "HTML5", fontAwesomeClassname: "fab fa-html5" },
-    { skillName: "CSS3", fontAwesomeClassname: "fab fa-css3-alt" },
-    { skillName: "JavaScript", fontAwesomeClassname: "fab fa-js" },
-    { skillName: "ReactJS", fontAwesomeClassname: "fab fa-react" },
-    { skillName: "Node.js", fontAwesomeClassname: "fab fa-node" },
-    { skillName: "Python", fontAwesomeClassname: "fab fa-python" },
-    { skillName: "SQL", fontAwesomeClassname: "fas fa-database" },
-    { skillName: "Linux", fontAwesomeClassname: "fab fa-linux" },
-    { skillName: "Git", fontAwesomeClassname: "fab fa-git-alt" }
+    {skillName: "HTML5", fontAwesomeClassname: "fab fa-html5"},
+    {skillName: "CSS3", fontAwesomeClassname: "fab fa-css3-alt"},
+    {skillName: "JavaScript", fontAwesomeClassname: "fab fa-js"},
+    {skillName: "ReactJS", fontAwesomeClassname: "fab fa-react"},
+    {skillName: "Node.js", fontAwesomeClassname: "fab fa-node"},
+    {skillName: "Python", fontAwesomeClassname: "fab fa-python"},
+    {skillName: "SQL", fontAwesomeClassname: "fas fa-database"},
+    {skillName: "Linux", fontAwesomeClassname: "fab fa-linux"},
+    {skillName: "Git", fontAwesomeClassname: "fab fa-git-alt"}
   ],
   display: true
 };
@@ -73,8 +77,7 @@ const educationInfo = {
       subHeader: "Bachelor of Science in Information Technology",
       duration: "2019 - 2024",
       desc: "Completed academic coursework in networking, cybersecurity, and system development. Conducted OJT at the Accounting/Budget/Supply Office to assist with document management and IT-related tasks.",
-      descBullets: [
-      ]
+      descBullets: []
     }
   ]
 };
@@ -83,9 +86,9 @@ const educationInfo = {
 const techStack = {
   viewSkillBars: true,
   experience: [
-    { Stack: "Cybersecurity Fundamentals", progressPercentage: "80%" },
-    { Stack: "Web Development", progressPercentage: "60%" },
-    { Stack: "Networking & Systems", progressPercentage: "70%" }
+    {Stack: "Cybersecurity Fundamentals", progressPercentage: "80%"},
+    {Stack: "Web Development", progressPercentage: "60%"},
+    {Stack: "Networking & Systems", progressPercentage: "70%"}
   ],
   displayCodersrank: false
 };
@@ -109,12 +112,12 @@ const workExperiences = {
       desc: "Developed and evaluated an Online School Management System as part of our school capstone project, aiming to streamline administrative processes, enhance document security, and improve usability"
     },
     {
-    role: "Customer Service Representative",
+      role: "Customer Service Representative",
       company: "Optum",
       companylogo: require("./assets/images/optumLogo.png"),
       date: "November 2024 – August 2025",
       desc: "Provide excellent customer support by handling inquiries, resolving issues, and ensuring customer satisfaction. Demonstrate strong communication, problem-solving, and multitasking skills in a fast-paced environment."
-    },
+    }
   ]
 };
 
@@ -134,9 +137,7 @@ const bigProjects = {
       projectName: "Online School Management System",
       projectDesc:
         "A system developed for San Jose National High School to enhance administrative efficiency, student data management, and document security.",
-      footerLink: [
-        
-      ]
+      footerLink: []
     }
   ],
   display: true
@@ -154,9 +155,7 @@ const achievementSection = {
         "Completed 460 hours of On-the-Job Training at Bicol University’s Accounting/Budget/Supply Office.",
       image: require("./assets/images/ojtLogo.png"),
       imageAlt: "OJT Certificate",
-      footerLink: [
-       
-      ]
+      footerLink: []
     }
   ],
   display: true
@@ -212,7 +211,7 @@ const contactInfo = {
 };
 
 // Twitter Section
-const twitterDetails = { userName: "", display: false };
+const twitterDetails = {userName: "", display: false};
 
 const isHireable = true;
 
